@@ -1,0 +1,85 @@
+.product-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    max-width: 100%;
+    height: 100%
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ensures all images are the same size and centered */
+  .product-image {
+    max-width: 100%;
+    height: 300px; 
+    object-fit: contain; 
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+
+.product-detail-image {
+    max-width: 100%; 
+    width: 300px; 
+    height: 300px; 
+    object-fit: contain; 
+    border-radius: 8px;
+  }
+  
+
+  .slick-slide {
+    display: inline-block;
+    width: 100% !important; /* Ensure each slide only takes up 100% width */
+  }
+  .btn {
+    background-color: var(--bs-orange);
+    border: 1px solid var(--bs-tertiary-bg-rgb);
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+
+  .btnTheme {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 8px 17px !important;
+    border-radius: 8px !important;
+    color: #1F2937 !important;
+    background: #fff !important;
+    border: 1px solid #1F2937 !important;
+  }
+
+  .btnTheme:hover {
+    border: 1px solid #6418C3 !important;
+    color: #1F2937 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+
+.btnTheme1 {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding: 8px 17px !important;
+  border-radius: 8px !important;
+  color: #1F2937 !important;
+  background: #fff !important;
+  border: 1px solid #1F2937 !important;
+}
+.btnTheme1:hover {
+  background: #280771 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+
+
+
+  
+  
