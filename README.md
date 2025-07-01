@@ -37,3 +37,4 @@ git clone https://github.com/Abhi733354/sembarkTask.git
 cd Ecommerce-App
 
 ### 2. Netlify Link
+link- https://sebt.netlify.app/
